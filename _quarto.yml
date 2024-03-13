@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "websitetest"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: ZijunResume.pdf
+        text: Resume
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
